@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
+
+*{
+    font-family: 'cinzel', serif;
+    box-sizing: border-box;
+}
+
+
+.contenedor{
+    background-color: rgb(204,159,167);
+    border: dashed 5px rgb(73, 47, 76) ;
+    width: auto;
+}
+#contenedor-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:auto auto auto auto auto auto auto;
+    grid-template-areas: 
+    "one"
+    "two"
+    "three"
+    "four"
+    "five"
+
+}
+
+body{
+    background-image: url(../img/bg/estrellas.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+.one{
+
+    grid-area: one;
+}
+
+.two{
+    grid-area: two;
+}
+
+.three{
+    grid-area: three;
+    }
+.four{
+    grid-area: four;
+}
+
+.five{
+    grid-area: five;
+}
+.six{
+    grid-area: six;
+}
+.seven{ 
+    grid-area: seven;
+}
+.eight{
+    grid-area: eight
+}
+
+.anuncio{
+    background-color: rgba(225, 225, 225, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* 1er beakpoint */
+@media only screen and(max-width:768px){
+#contenedor-grid{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:auto auto auto 50vh auto;
+    grid-template-areas: "one one" "two two" "three four" "five five";
+    }
+}
+/* 2do breakpoint */
+
+
+.botonera{
+    background-color: rgba(244, 224, 222, .9);
+    
+}
+    .botonera img{
+        width: 160px;
+    }
+
+    .botnoera li a{
+        color: rgb(99, 79, 96);
+    }
+
+    .textCenter{
+        text-align: center;
+    }
+    p{
+        color: rgb(99, 79, 96);
+        font-weight: 400;
+        font-size: 1.7rem;
+        line-height: 1.7rem;
+    }
+    h1{
+        font-size: 4rem;
+        color: rgb(73,47,76);
+    }
+    h2{
+        font-size: 3rem;
+        color:rgb(73,47,76);
+    }
+    h3{
+        font-size: 2rem;
+        color: rgb(73,47,76);
+    }
+    h1,h2,h3{
+        font-weight: 600;
+        margin: 10px 0 ;
+    }
+
+    footer{
+        background-color: rgb(244, 224, 222) ;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+        footer svg{
+            width: 20vh;
+            fill: rgb(73,47,76);
+            margin-right: 10px;
+            }
+
+
+.destacado{
+    text-decoration: none;
+}
