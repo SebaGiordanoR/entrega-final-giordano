@@ -113,17 +113,17 @@ body{
         margin: 10px 0 ;
     }
 
-    footer{
+    footer {
         background-color: rgb(244, 224, 222) ;
         
         display: flex;
         justify-content: space-between;
         align-items:center;
     }
-        footer svg{
+        footer  svg{
             width: 20vh;
             fill: rgb(73,47,76);
-            margin-right: 10px;
+            margin:10px;
             }
 
 
