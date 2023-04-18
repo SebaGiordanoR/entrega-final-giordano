@@ -130,3 +130,8 @@ body{
 .destacado{
     text-decoration: none;
 }
+.card{
+    background-color:rgba(244, 224, 222, .9);
+}
+.btn{background-color: rgb(99, 79, 96);
+}
