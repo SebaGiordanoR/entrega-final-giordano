@@ -139,7 +139,7 @@ body{
     width: 20%;
 }
 .kits{
-    height: 75vh
+    height: 100%;
 }
 
     .kits img{
@@ -158,3 +158,6 @@ body{
         font-size: 0.8em;
     }
 
+.horoscopo{
+    height: 40%;
+}
