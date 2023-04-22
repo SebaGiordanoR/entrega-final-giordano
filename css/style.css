@@ -91,7 +91,7 @@ body{
         text-align: center;
     }
     p{
-        color: rgb(99, 79, 96);
+        color: rgb(80, 30, 72);
         font-weight: 400;
         font-size: 1.7rem;
         line-height: 1.7rem;
@@ -135,3 +135,26 @@ body{
 }
 .btn{background-color: rgb(99, 79, 96);
 }
+#gerald{
+    width: 20%;
+}
+.kits{
+    height: 75vh
+}
+
+    .kits img{
+        width: 50%;
+    }
+    .kits h3{
+        font-size: 90%;
+    }
+
+    .kits p{
+        font-size: 1.3em;
+        text-align:start;
+    }
+
+    .kits ul{
+        font-size: 0.8em;
+    }
+
