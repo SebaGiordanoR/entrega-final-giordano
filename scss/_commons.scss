@@ -46,10 +46,10 @@ body{
 }
 
 .anuncio{
-    background-color:$mainColorAlpha;
+    background-color:rgba(255, 207, 207, 0.9) ;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
 
 .horoscopo{
