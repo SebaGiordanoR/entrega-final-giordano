@@ -1,163 +1,143 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
-
-*{
-    font-family: 'cinzel', serif;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap");
+* {
+  font-family: "cinzel", serif;
+  box-sizing: border-box;
 }
 
-
-.contenedor{
-    background-color: rgb(204,159,167);
-    border: dashed 5px rgb(73, 47, 76) ;
-    width: auto;
-}
-#contenedor-grid{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows:auto auto auto auto auto auto auto;
-    grid-template-areas: 
-    "one"
-    "two"
-    "three"
-    "four"
-    "five"
-
+.contenedor {
+  background-color: rgb(204, 159, 167);
+  border: dashed 5px rgb(73, 47, 76);
+  width: auto;
 }
 
-body{
-    background-image: url(../img/bg/estrellas.jpg);
-    background-attachment: fixed;
-    background-repeat: repeat;
-}
-.one{
-
-    grid-area: one;
+body {
+  background-image: url(../img/bg/estrellas.jpg);
+  background-attachment: fixed;
+  background-repeat: repeat;
 }
 
-.two{
-    grid-area: two;
+.one {
+  grid-area: one;
 }
 
-.three{
-    grid-area: three;
-    }
-.four{
-    grid-area: four;
+.two {
+  grid-area: two;
 }
 
-.five{
-    grid-area: five;
-}
-.six{
-    grid-area: six;
-}
-.seven{ 
-    grid-area: seven;
-}
-.eight{
-    grid-area: eight
+.three {
+  grid-area: three;
 }
 
-.anuncio{
-    background-color: rgba(225, 225, 225, 0.9);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.four {
+  grid-area: four;
 }
-/* 1er beakpoint */
-@media only screen and(max-width:768px){
-#contenedor-grid{
+
+.five {
+  grid-area: five;
+}
+
+.six {
+  grid-area: six;
+}
+
+.seven {
+  grid-area: seven;
+}
+
+.eight {
+  grid-area: eight;
+}
+
+.anuncio {
+  background-color: rgba(244, 224, 222, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.horoscopo {
+  height: 40%;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+p {
+  color: rgb(80, 30, 72);
+  font-weight: 400;
+  font-size: 1.6em;
+  line-height: 1.6em;
+}
+
+h1 {
+  font-size: 4em;
+  color: rgb(73, 47, 76);
+}
+
+h2 {
+  font-size: 3em;
+  color: rgb(73, 47, 76);
+}
+
+h3 {
+  font-size: 2em;
+  color: rgb(73, 47, 76);
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.destacado {
+  text-decoration: none;
+}
+
+.card {
+  background-color: rgba(244, 224, 222, 0.9);
+}
+
+.btn {
+  background-color: rgb(99, 79, 96);
+}
+
+#gerald {
+  width: 20%;
+}
+
+.botonera {
+  background-color: rgba(244, 224, 222, 0.9) img;
+  background-color-width: 160px;
+}
+.botonera li a {
+  color: rgb(99, 79, 96);
+}
+
+#contenedor-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  grid-template-areas: "one" "two" "three" "four" "five";
+}
+
+@media only screen and (max-width: 768px) {
+  #contenedor-grid {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows:auto auto auto 50vh auto;
+    grid-template-rows: auto auto auto 50vh auto;
     grid-template-areas: "one one" "two two" "three four" "five five";
-    }
+  }
 }
-/* 2do breakpoint */
-
-
-.botonera{
-    background-color: rgba(244, 224, 222, .9);
-    
+footer {
+  background-color: rgb(244, 224, 222);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-    .botonera img{
-        width: 160px;
-    }
-
-    .botnoera li a{
-        color: rgb(99, 79, 96);
-    }
-
-    .textCenter{
-        text-align: center;
-    }
-    p{
-        color: rgb(80, 30, 72);
-        font-weight: 400;
-        font-size: 1.7rem;
-        line-height: 1.7rem;
-    }
-    h1{
-        font-size: 4rem;
-        color: rgb(73,47,76);
-    }
-    h2{
-        font-size: 3rem;
-        color:rgb(73,47,76);
-    }
-    h3{
-        font-size: 2rem;
-        color: rgb(73,47,76);
-    }
-    h1,h2,h3{
-        font-weight: 600;
-        margin: 10px 0 ;
-    }
-
-    footer {
-        background-color: rgb(244, 224, 222) ;
-        
-        display: flex;
-        justify-content: space-between;
-        align-items:center;
-    }
-        footer  svg{
-            width: 6vh;
-            fill: rgb(73,47,76);
-            margin:10px;
-            }
-
-
-.destacado{
-    text-decoration: none;
-}
-.card{
-    background-color:rgba(244, 224, 222, .9);
-}
-.btn{background-color: rgb(99, 79, 96);
-}
-#gerald{
-    width: 20%;
-}
-.kits{
-    height: 100%;
+footer svg {
+  width: 6vh;
+  fill: rgb(73, 47, 76);
+  margin: 10px;
 }
 
-    .kits img{
-        width: 50%;
-    }
-    .kits h3{
-        font-size: 90%;
-    }
-
-    .kits p{
-        font-size: 1.3em;
-        text-align:start;
-    }
-
-    .kits ul{
-        font-size: 0.8em;
-    }
-
-.horoscopo{
-    height: 40%;
-}
+/*# sourceMappingURL=main.css.map */

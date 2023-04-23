@@ -1,0 +1,19 @@
+#contenedor-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:auto auto auto auto auto auto auto;
+    grid-template-areas: 
+    "one"
+    "two"
+    "three"
+    "four"
+    "five"
+}
+
+@media only screen and (max-width:768px){
+    #contenedor-grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows:auto auto auto 50vh auto;
+        grid-template-areas: "one one" "two two" "three four" "five five";
+        }
+    }

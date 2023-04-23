@@ -1,0 +1,21 @@
+
+
+//imports
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
+@import "_vars";
+@import "commons";
+@import "_nav";
+@import "_media";
+
+footer {
+    background-color: $mainColor ;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    svg{
+        width: 6vh;
+        fill:$secondaryColor;
+        margin:10px;
+    }
+}

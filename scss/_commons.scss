@@ -1,0 +1,93 @@
+*{
+    font-family: $mainFont;
+    box-sizing: border-box;
+}
+
+
+.contenedor{
+    background-color: $containerColor;
+    border: dashed 5px $secondaryColor;
+    width: auto;
+}
+
+
+body{
+    background-image: url(../img/bg/estrellas.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+.one{
+
+    grid-area: one;
+}
+
+.two{
+    grid-area: two;
+}
+
+.three{
+    grid-area: three;
+    }
+.four{
+    grid-area: four;
+}
+
+.five{
+    grid-area: five;
+}
+.six{
+    grid-area: six;
+}
+.seven{ 
+    grid-area: seven;
+}
+.eight{
+    grid-area: eight
+}
+
+.anuncio{
+    background-color:$mainColorAlpha;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.horoscopo{
+    height: 40%;
+}
+.textCenter{
+    text-align: center;
+}
+p{
+    color:$keytColor;
+    font-weight: $fontRegular;
+    font-size: $textLg;
+    line-height: $textLg;
+}
+h1{
+    font-size: $textXxxL;
+    color: $secondaryColor;
+}
+h2{
+    font-size: $textXxl;
+    color:$secondaryColor;
+}
+h3{
+    font-size: $textXl;
+    color: $secondaryColor;
+}
+h1,h2,h3{
+    font-weight: $fontBold;
+    margin: 10px 0 ;
+}
+.destacado{
+    text-decoration: none;
+}
+.card{
+    background-color:$mainColorAlpha
+}
+.btn{background-color: $thirdColor;
+}
+#gerald{
+    width: 20%;
+}

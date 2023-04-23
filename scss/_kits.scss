@@ -1,0 +1,20 @@
+.kits{
+    height: 100%;
+
+
+    .kits img{
+        width: 50%;
+    }
+    .kits h3{
+        font-size: 90%;
+    }
+
+    .kits p{
+        font-size: $textMd;
+        text-align:start;
+    }
+
+    .kits ul{
+        font-size: $textSm;
+    }
+}
