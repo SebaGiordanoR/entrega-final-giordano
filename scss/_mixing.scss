@@ -1,0 +1,10 @@
+@mixin texto ($color, $size, $weight, $height){
+    font-family: $mainFont;
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $height;
+}
+.mixin p{
+@include texto($secondaryColor,$textXl,$fontBold, $textMd)
+}
