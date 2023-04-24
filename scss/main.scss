@@ -9,12 +9,13 @@
 
 footer {
     background-color: $mainColor ;
-    
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+
     svg{
-        width: 6vh;
+
+        height: 6vh;
         fill:$secondaryColor;
         margin:10px;
     }

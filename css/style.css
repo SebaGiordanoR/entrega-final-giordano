@@ -137,7 +137,7 @@ footer {
   align-items: center;
 }
 footer svg {
-  width: 6vh;
+  height: 6vh;
   fill: rgb(73, 47, 76);
   margin: 10px;
 }
