@@ -106,6 +106,16 @@ h1, h2, h3 {
   width: 20%;
 }
 
+.transform:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+.transform2:hover {
+  transform: scale(1.5);
+  transition: all 0.3s;
+}
+
 .mixin p {
   font-family: "cinzel", serif;
   color: rgb(73, 47, 76);

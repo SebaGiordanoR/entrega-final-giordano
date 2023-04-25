@@ -91,3 +91,13 @@ h1,h2,h3{
 #gerald{
     width: 20%;
 }
+
+.transform:hover{
+    transform: scale(1.05);
+    transition: all .3s;
+}
+
+.transform2:hover{
+    transform: scale(1.5);
+    transition: all .3s;
+}
