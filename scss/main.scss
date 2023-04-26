@@ -5,6 +5,7 @@
 @import "_vars";
 @import "commons";
 @import "_mixing";
+@import "_kits";
 @import "_nav";
 @import "_media";
 
@@ -19,5 +20,24 @@ footer {
         height: 6vh;
         fill:$secondaryColor;
         margin:10px;
+    }
+}
+
+.productos{
+    div.card-body{
+        height: 50vh;
+        h2{
+            font-size: $textXl;
+        }
+        p{
+            font-size: $textSm;
+        }
+        a{
+            &.btn{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
     }
 }

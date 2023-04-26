@@ -112,7 +112,7 @@ h1, h2, h3 {
 }
 
 .transform2:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
   transition: all 0.3s;
 }
 
@@ -124,6 +124,28 @@ h1, h2, h3 {
   line-height: 1.3em;
 }
 
+.kits {
+  height: 100%;
+  width: 95%;
+}
+.kits .kits img {
+  width: 40%;
+}
+.kits .kits h3 {
+  font-size: 90%;
+}
+.kits .kits p {
+  font-size: 1.3em;
+  text-align: start;
+}
+.kits .kits ul {
+  font-size: 0.8em;
+}
+
+.kitIndex {
+  text-decoration: none;
+}
+
 .botonera {
   background-color: rgba(244, 224, 222, 0.9);
 }
@@ -132,6 +154,15 @@ h1, h2, h3 {
 }
 .botonera li a {
   color: rgb(99, 79, 96);
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+.botonera li a:hover {
+  color: rgb(99, 79, 96);
+  background-size: 100% 2px;
 }
 
 #contenedor-grid {
@@ -158,6 +189,21 @@ footer svg {
   height: 6vh;
   fill: rgb(73, 47, 76);
   margin: 10px;
+}
+
+.productos div.card-body {
+  height: 50vh;
+}
+.productos div.card-body h2 {
+  font-size: 2em;
+}
+.productos div.card-body p {
+  font-size: 0.8em;
+}
+.productos div.card-body a.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
